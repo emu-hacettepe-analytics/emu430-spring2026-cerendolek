@@ -46,7 +46,7 @@
     "href": "assignments/assignment-1.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "1 + 1\n\n[1] 2\nMy first assignment has two parts.",
+    "text": "My first assignment has two parts.",
     "crumbs": [
       "Assignment 1"
     ]
@@ -73,7 +73,7 @@
     "href": "assignments/assignment-1.html#a-summary-of-the-video",
     "title": "Assignment 1",
     "section": "(a) Summary of the video:",
-    "text": "(a) Summary of the video:",
+    "text": "(a) Summary of the video:\n[AI-powered content]\nIn this conversation, Kerem Demirtas shares his interdisciplinary career journey ,spanning from his undergraduate studies at METU and PhD at Arizona State to his experiences at Intel, the gaming industry, and his current work on retail solutions at Invent Analytics, while emphasizing the strong link between industrial engineering and data science. Defining data science not merely as building models but as a process requiring domain knowledge, Demirtas illustrates the life-saving power of optimization using historical examples such as the WWII “diet problem” and the reinforcement of bomber planes. Focusing on his thesis work regarding the platooning of autonomous vehicles, he blends optimization with traffic flow and highlights the balance between “overfitting” and “generalization” in artificial intelligence through the Deep Blue vs. Kasparov chess match. Stressing the value and necessity of learning Python for industrial engineers in the current market, Demirtas argues that while total automation is a technical and theoretical ideal, the human factor will continue to play a central role in ethical and decision-making processes for a long time, as controlling human habits and desires is far more complex than establishing an ideal technical order.\n\n^The text in this section is based on a draft I prepared. The AI tool (Gemini) was used as an editor to translate my raw text into academic language and to homogenize the content.Prompt:‘’Take the career summary and technical notes I mentioned and turn them into an effective paragraph while maintaining the industrial engineering perspective. Connect the sentences to create a cohesive and academic flow. Stay true to the original content but make the writing fluent.’’",
     "crumbs": [
       "Assignment 1"
     ]
@@ -83,7 +83,27 @@
     "href": "assignments/assignment-1.html#b",
     "title": "Assignment 1",
     "section": "(b)",
-    "text": "(b)",
+    "text": "(b)\n[AI-powered content]\nQuestion 1: If autonomous vehicles were to completely dominate traffic, theoretically, traffic problems would be solved. Considering the technical capabilities available today, why does Demirtas view this transition as such a long-term sociotechnical challenge rather than a purely technical one?\nAnswer: Demirtas emphasizes that while autonomous vehicles can theoretically mitigate traffic oscillations, the primary obstacle is the “human factor” rather than the technology itself. He points out that human habits, such as viewing driving as a leisure activity, deeply ingrained driving behaviors, and complex sociological interactions on the road, hinder the implementation of fully autonomous systems. Furthermore, he argues that the transition will occur gradually in specific regions rather than globally, making the shift to a completely autonomous, integrated traffic order a process that will unfold over a very long period.\n\n\n\n\n\n\nNoteQuestion 2:\n\n\n\nWhich of the six fundamental steps that Kerem Demirtas outlines in the video for solving a data science problem is NOT included in this process?\n\nA:Evaluation\nB:Exploratory Data Analysis (EDA)\nC:Random Model Choosing and Application\nD:Problem Definition\nE:Production and Live Performance\n\nAnswer: C\n\n^Questions provided above was formulated entirely by me. The AI tool (Gemini) was utilized solely as an “editor” to translate my original inquiry into academic English and to enhance the flow of the language.",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#a-summary",
+    "href": "assignments/assignment-1.html#a-summary",
+    "title": "Assignment 1",
+    "section": "(a) Summary",
+    "text": "(a) Summary\n[AI-powered content]\nIn this conversation, Kerem Demirtas shares his interdisciplinary career journey ,spanning from his undergraduate studies at METU and PhD at Arizona State to his experiences at Intel, the gaming industry, and his current work on retail solutions at Invent Analytics, while emphasizing the strong link between industrial engineering and data science. Defining data science not merely as building models but as a process requiring domain knowledge, Demirtas illustrates the life-saving power of optimization using historical examples such as the WWII “diet problem” and the reinforcement of bomber planes. Focusing on his thesis work regarding the platooning of autonomous vehicles, he blends optimization with traffic flow and highlights the balance between “overfitting” and “generalization” in artificial intelligence through the Deep Blue vs. Kasparov chess match. Stressing the value and necessity of learning Python for industrial engineers in the current market, Demirtas argues that while total automation is a technical and theoretical ideal, the human factor will continue to play a central role in ethical and decision-making processes for a long time, as controlling human habits and desires is far more complex than establishing an ideal technical order.\n\n^The text in this section is based on a draft I prepared. The AI tool (Gemini) was used as an editor to translate my raw text into academic language and to homogenize the content.Prompt:‘’Take the career summary and technical notes I mentioned and turn them into an effective paragraph while maintaining the industrial engineering perspective. Connect the sentences to create a cohesive and academic flow. Stay true to the original content but make the writing fluent.’’",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#b-questions",
+    "href": "assignments/assignment-1.html#b-questions",
+    "title": "Assignment 1",
+    "section": "(b) Questions",
+    "text": "(b) Questions\n[AI-powered content]\nQuestion 1: If autonomous vehicles were to completely dominate traffic, theoretically, traffic problems would be solved. Considering the technical capabilities available today, why does Demirtas view this transition as such a long-term sociotechnical challenge rather than a purely technical one?\nAnswer: Demirtas emphasizes that while autonomous vehicles can theoretically mitigate traffic oscillations, the primary obstacle is the “human factor” rather than the technology itself. He points out that human habits, such as viewing driving as a leisure activity, deeply ingrained driving behaviors, and complex sociological interactions on the road, hinder the implementation of fully autonomous systems. Furthermore, he argues that the transition will occur gradually in specific regions rather than globally, making the shift to a completely autonomous, integrated traffic order a process that will unfold over a very long period.\nQuestion 2: Which of the six fundamental steps that Kerem Demirtas outlines in the video for solving a data science problem is NOT included in this process?\n\nA:Evaluation\nB:Exploratory Data Analysis (EDA)\nC:Random Model Choosing and Application\nD:Problem Definition\nE:Production and Live Performance\n\nAnswer: C\n\n^Questions provided above was formulated entirely by me. The AI tool (Gemini) was utilized solely as an “editor” to translate my original inquiry into academic English and to enhance the flow of the language.",
     "crumbs": [
       "Assignment 1"
     ]
