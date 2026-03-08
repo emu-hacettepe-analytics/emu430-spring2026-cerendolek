@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Welcome to My Analytics Lab",
     "section": "",
-    "text": "Hello! My name is xxx xxxx.\nThis is my personal webpage.\nPlease stay tuned to follow my works on data analytics, blog posts, and more.\nThis is our template.\n\n\n\n Back to top"
+    "text": "Hello! My name is Ceren Dolek.\nThis is my personal webpage.\nPlease stay tuned to follow my works on data analytics, blog posts, and more.\n\n\n\n Back to top"
   },
   {
     "objectID": "assignments/assignment-2.html",
@@ -25,28 +25,31 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing."
+    "text": "Please click here to view and download my resume"
   },
   {
     "objectID": "about.html#employements",
     "href": "about.html#employements",
     "title": "About Me",
     "section": "Employements",
-    "text": "Employements\n\nFirm xxx, position xx, year xxx\nFirm yyy, position yyy, year yyy"
+    "text": "Employements"
   },
   {
     "objectID": "about.html#internships",
     "href": "about.html#internships",
     "title": "About Me",
     "section": "Internships",
-    "text": "Internships\n\nFirm aaa, position xx, year xxx\nFirm bbb, position yyy, year yyy"
+    "text": "Internships\n\nKucukpazarli, Production Planning Intern, 2023\nTurkcell, Network Purchase Intern, 2025\nAnadolu Sigorta, Business Analysis Intern, 2025"
   },
   {
     "objectID": "assignments/assignment-1.html",
     "href": "assignments/assignment-1.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts."
+    "text": "1 + 1\n\n[1] 2\nMy first assignment has two parts.",
+    "crumbs": [
+      "Assignment 1"
+    ]
   },
   {
     "objectID": "assignments.html",
@@ -64,5 +67,25 @@
     "title": "My Blog",
     "section": "",
     "text": "This page is under construction.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "assignments/assignment-1.html#a-summary-of-the-video",
+    "href": "assignments/assignment-1.html#a-summary-of-the-video",
+    "title": "Assignment 1",
+    "section": "(a) Summary of the video:",
+    "text": "(a) Summary of the video:",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#b",
+    "href": "assignments/assignment-1.html#b",
+    "title": "Assignment 1",
+    "section": "(b)",
+    "text": "(b)",
+    "crumbs": [
+      "Assignment 1"
+    ]
   }
 ]

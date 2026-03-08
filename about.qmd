@@ -2,29 +2,33 @@
 title: "About Me"
 sidebar: false 
 ---
+[Please click here to view/download my resume](CerenDolekResume.pdf)
 
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Industrial Engineering, Hacettepe University, Turkey, 2020 - ongoing
 
 # Work Experience
 
+- Anadolu Sigorta, Data Analysis Long Term Internship, 01.12.2025 - ongoing 
 ## Employements
-
-1.  Firm xxx, position xx, year xxx
-
-2.  Firm yyy, position yyy, year yyy
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
+- Kucukpazarli, Production Planning Intern, 2023
 
-2.  Firm bbb, position yyy, year yyy
+- Turkcell, Network Purchase Intern, 2025
+
+- Anadolu Sigorta, Business Analysis Intern, 2025
 
 # Projects
+
+Graduation Project - Aselsan
 
 # Competencies
 
 R, Quarto, Git, Python
 
 # Hobbies
+
+Tango, theatre, photography, piano
