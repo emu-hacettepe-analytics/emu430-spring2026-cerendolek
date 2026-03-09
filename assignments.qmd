@@ -6,4 +6,131 @@ On this page, I showcase the assignment I conducted for the \[Spring 2026\] EMU4
 
 Please use the left menu to navigate through my assignments.
 
-The most recent update to this page was made on 08/03/2026.
+The most recent update to this page was made on 09/03/2026.
+
+
+
+## 1. Load Required Package and Dataset
+
+```{r}
+library(dslabs)
+
+data("polls_us_election_2016")
+data <- polls_us_election_2016
+```
+
+---
+
+## 2. Define Personal Variables
+
+```{r}
+my_first <- "Ceren"
+my_birth_year <- 2001
+```
+
+---
+
+## 3. Define k
+
+```{r}
+k <- (nchar(my_first) + my_birth_year) %% 15 + 8
+k
+```
+
+This formula guarantees that **k is between 8 and 22**.
+
+---
+
+## 4. Display Rows from the Original Dataset
+
+If **k is even**, show the first k rows.
+If **k is odd**, show the last k rows.
+
+```{r}
+if (k %% 2 == 0) {
+  head(data, k)
+} else {
+  tail(data, k)
+}
+```
+
+---
+
+## 5. Total Number of NA Values in the Dataset
+
+```{r}
+total_na <- sum(is.na(data))
+total_na
+```
+
+---
+
+## 6. Number of NA Values per Column (Top 8)
+
+```{r}
+na_per_column <- sort(colSums(is.na(data)), decreasing = TRUE)
+
+head(na_per_column, 8)
+```
+
+---
+
+## 7. Replace NA Values and Create New Dataset
+
+Create a new dataset **without overwriting the original data**.
+
+```{r}
+new_data <- data
+```
+
+### Replace NA in Numeric Columns
+
+```{r}
+num_cols <- sapply(new_data, is.numeric)
+
+new_data[num_cols] <- lapply(new_data[num_cols], function(x) {
+  x[is.na(x)] <- my_birth_year + k
+  x
+})
+```
+
+### Replace NA in Character or Factor Columns
+
+```{r}
+char_cols <- sapply(new_data, function(x) is.character(x) | is.factor(x))
+### instead of for-loop
+
+new_data[char_cols] <- lapply(new_data[char_cols], function(x) {
+  x <- as.character(x)
+  x[is.na(x)] <- paste0(my_first, "_", k)
+  x
+})
+```
+---
+
+## 8. Display Rows from the New Dataset
+
+```{r}
+if (k %% 2 == 0) {
+  head(new_data, k)
+} else {
+  tail(new_data, k)
+}
+```
+
+---
+
+## 9. Total Remaining NA Values
+
+```{r}
+sum(is.na(new_data))
+```
+
+---
+
+## 10. Check if Any NA Values Remain
+
+```{r}
+anyNA(new_data)
+```
+^>*While writing the code, I tried to stay true to the slides. In situations where I didn't know how to access the code, I used AI for assistance. In doing so, I ensured the tool was aware of the slides and didn't deviate from them.*

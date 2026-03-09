@@ -352,6 +352,15 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#a-summary" id="toc-a-summary" class="nav-link active" data-scroll-target="#a-summary">(a) Summary</a></li>
   <li><a href="#b-questions" id="toc-b-questions" class="nav-link" data-scroll-target="#b-questions">(b) Questions</a></li>
+  <li><a href="#c-data-analysis" id="toc-c-data-analysis" class="nav-link" data-scroll-target="#c-data-analysis">(c) Data Analysis</a></li>
+  <li><a href="#load-libraries" id="toc-load-libraries" class="nav-link" data-scroll-target="#load-libraries">Load libraries</a></li>
+  <li><a href="#load-data" id="toc-load-data" class="nav-link" data-scroll-target="#load-data">Load data</a></li>
+  <li><a href="#define-variables" id="toc-define-variables" class="nav-link" data-scroll-target="#define-variables">Define variables</a></li>
+  <li><a href="#calculate-k" id="toc-calculate-k" class="nav-link" data-scroll-target="#calculate-k">Calculate k</a></li>
+  <li><a href="#display-k-rows-of-original-data" id="toc-display-k-rows-of-original-data" class="nav-link" data-scroll-target="#display-k-rows-of-original-data">Display k rows of original data</a></li>
+  <li><a href="#total-and-per-column-na-values" id="toc-total-and-per-column-na-values" class="nav-link" data-scroll-target="#total-and-per-column-na-values">Total and per-column NA values</a></li>
+  <li><a href="#replace-na-values" id="toc-replace-na-values" class="nav-link" data-scroll-target="#replace-na-values">Replace NA values</a></li>
+  <li><a href="#display-outputs-for-new_data" id="toc-display-outputs-for-new_data" class="nav-link" data-scroll-target="#display-outputs-for-new_data">Display outputs for new_data</a></li>
   </ul>
 </nav>
 </nav>
@@ -408,6 +417,45 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p>^<em>Questions provided above was formulated entirely by me. The AI tool (Gemini) was utilized solely as an “editor” to translate my original inquiry into academic English and to enhance the flow of the language.</em></p>
 </blockquote>
+</section>
+<section id="c-data-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="c-data-analysis">(c) Data Analysis</h2>
+<p>#| message: false #| warning: false</p>
+</section>
+<section id="load-libraries" class="level1">
+<h1>Load libraries</h1>
+<p>library(dslabs) library(dplyr) library(knitr)</p>
+</section>
+<section id="load-data" class="level1">
+<h1>Load data</h1>
+<p>data(“polls_us_election_2016”) data &lt;- polls_us_election_2016</p>
+</section>
+<section id="define-variables" class="level1">
+<h1>Define variables</h1>
+<p>my_first &lt;- “CEREN” my_birth_year &lt;- 2004</p>
+</section>
+<section id="calculate-k" class="level1">
+<h1>Calculate k</h1>
+<p>k &lt;- (nchar(my_first) + my_birth_year) %% 15 + 8</p>
+</section>
+<section id="display-k-rows-of-original-data" class="level1">
+<h1>Display k rows of original data</h1>
+<p>if (k %% 2 == 0) { kable(head(data, k), caption = “First k rows (k is even)”) } else { kable(tail(data, k), caption = “Last k rows (k is odd)”) }</p>
+</section>
+<section id="total-and-per-column-na-values" class="level1">
+<h1>Total and per-column NA values</h1>
+<p>cat(“Total number of NA values in the entire data set:”, sum(is.na(data)), “”) colSums(is.na(data)) %&gt;% sort(decreasing = TRUE) %&gt;% head(8) %&gt;% print()</p>
+</section>
+<section id="replace-na-values" class="level1">
+<h1>Replace NA values</h1>
+<p>new_data &lt;- data numeric_cols &lt;- sapply(new_data, is.numeric) char_cols &lt;- sapply(new_data, function(x) is.character(x) || is.factor(x))</p>
+<p>new_data[numeric_cols] &lt;- lapply(new_data[numeric_cols], function(x) { x[is.na(x)] &lt;- my_birth_year + k x })</p>
+<p>new_data[char_cols] &lt;- lapply(new_data[char_cols], function(x) { x[is.na(x)] &lt;- paste0(my_first, “_“, k) x })</p>
+</section>
+<section id="display-outputs-for-new_data" class="level1">
+<h1>Display outputs for new_data</h1>
+<p>if (k %% 2 == 0) { kable(head(new_data, k), caption = “First k rows of new_data”) } else { kable(tail(new_data, k), caption = “Last k rows of new_data”) }</p>
+<p>cat(“Total number of NA values remaining in the new data frame:”, sum(is.na(new_data)), “”) print(anyNA(new_data))</p>
 
 
 </section>

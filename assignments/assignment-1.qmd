@@ -2,9 +2,6 @@
 title: "Assignment 1"
 ---
 
-```{r}
-```
-
 My first assignment has two parts.
 
 ## (a) Summary 
@@ -34,4 +31,3 @@ In this conversation, Kerem Demirtas shares his interdisciplinary career journey
 **Answer:** C
 
 >^*Questions provided above was formulated entirely by me. The AI tool (Gemini) was utilized solely as an "editor" to translate my original inquiry into academic English and to enhance the flow of the language.*
-
