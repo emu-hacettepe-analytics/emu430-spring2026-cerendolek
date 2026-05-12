@@ -1,6 +1,9 @@
 ---
 title: "Our Course Project"
 sidebar: false 
+format: 
+ html:
+  theme: lux
 ---
 
 I'm honored to be a member of the AC/DC project team.

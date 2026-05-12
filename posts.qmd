@@ -1,6 +1,9 @@
 ---
 title: "My Blog"
 sidebar: false 
+format: 
+ html:
+  theme: lux
 ---
 
 This page is under construction.
