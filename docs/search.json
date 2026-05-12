@@ -4,7 +4,7 @@
     "href": "project.html",
     "title": "Our Course Project",
     "section": "",
-    "text": "I’m honored to be a member of the [group name] project team.\nBelow, you’ll find a brief summary of our project. To access a detailed project description, please go to https://[your-project-url].\nSummary\n[provide a biref summary of your project]\n\n\n\n Back to top"
+    "text": "I’m honored to be a member of the AC/DC project team.\nBelow, you’ll find a brief summary of our project. To access a detailed project description, please go to https://emu-hacettepe-analytics.github.io/emu430-fall2024-team-ac-dc/\nSummary\nIn this project, we basically wanted to see if the current electric vehicle (EV) charging infrastructure in Türkiye is actually enough to meet the demand in different cities.\nWe pulled our data from three main places: we got the registered EV numbers per city from TÜİK, and the charging station details (like locations, socket counts, and kW capacities) from EPDK. We also used official reports to get a sense of national usage stats, like the average 20 kWh energy consumption per session.\nBy bringing all this together, we were able to evaluate both the supply and demand sides of the infrastructure. Ultimately, our main goal was to pinpoint exactly which cities are falling short on charging capacity and provide solid, data-driven recommendations for where new stations should be built next.\n\n\n\n Back to top"
   },
   {
     "objectID": "index.html",
@@ -18,21 +18,17 @@
     "href": "assignments/assignment-2.html",
     "title": "Assignment 2",
     "section": "",
-    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top"
+    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Assignment 2"
+    ]
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "Please click here to view and download my resume"
-  },
-  {
-    "objectID": "about.html#employements",
-    "href": "about.html#employements",
-    "title": "About Me",
-    "section": "Employements",
-    "text": "Employements"
+    "text": "Please click here to view/download my resume\n\nEducation\n\nB.S., Industrial Engineering, Hacettepe University, Turkey, 2020 - ongoing\n\n\n\nWork Experience\n\nAnadolu Sigorta, Data Analysis Long Term Internship, 01.12.2025 - ongoing\n\n\n\nInternships\n\nKucukpazarli, Production Planning Intern, 2023\nTurkcell, Network Purchase Intern, 2025\nAnadolu Sigorta, Business Analysis Intern, 2025\n\n\n\nProjects\nGraduation Project - Aselsan\n\n\nCompetencies\nR, Quarto, Git, Python\n\n\nHobbies\nTango, theatre, photography, piano\n\n\n\n\n Back to top"
   },
   {
     "objectID": "about.html#internships",
@@ -47,43 +43,6 @@
     "title": "Assignment 1",
     "section": "",
     "text": "My first assignment has two parts.",
-    "crumbs": [
-      "Assignment 1"
-    ]
-  },
-  {
-    "objectID": "assignments.html",
-    "href": "assignments.html",
-    "title": "My Assignments",
-    "section": "",
-    "text": "On this page, I showcase the assignment I conducted for the [Spring 2026] EMU430 Data Analytics course.\nPlease use the left menu to navigate through my assignments.\nThe most recent update to this page was made on 09/03/2026.",
-    "crumbs": [
-      "My Assignments"
-    ]
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "My Blog",
-    "section": "",
-    "text": "This page is under construction.\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "assignments/assignment-1.html#a-summary-of-the-video",
-    "href": "assignments/assignment-1.html#a-summary-of-the-video",
-    "title": "Assignment 1",
-    "section": "(a) Summary of the video:",
-    "text": "(a) Summary of the video:\n[AI-powered content]\nIn this conversation, Kerem Demirtas shares his interdisciplinary career journey ,spanning from his undergraduate studies at METU and PhD at Arizona State to his experiences at Intel, the gaming industry, and his current work on retail solutions at Invent Analytics, while emphasizing the strong link between industrial engineering and data science. Defining data science not merely as building models but as a process requiring domain knowledge, Demirtas illustrates the life-saving power of optimization using historical examples such as the WWII “diet problem” and the reinforcement of bomber planes. Focusing on his thesis work regarding the platooning of autonomous vehicles, he blends optimization with traffic flow and highlights the balance between “overfitting” and “generalization” in artificial intelligence through the Deep Blue vs. Kasparov chess match. Stressing the value and necessity of learning Python for industrial engineers in the current market, Demirtas argues that while total automation is a technical and theoretical ideal, the human factor will continue to play a central role in ethical and decision-making processes for a long time, as controlling human habits and desires is far more complex than establishing an ideal technical order.\n\n^The text in this section is based on a draft I prepared. The AI tool (Gemini) was used as an editor to translate my raw text into academic language and to homogenize the content.Prompt:‘’Take the career summary and technical notes I mentioned and turn them into an effective paragraph while maintaining the industrial engineering perspective. Connect the sentences to create a cohesive and academic flow. Stay true to the original content but make the writing fluent.’’",
-    "crumbs": [
-      "Assignment 1"
-    ]
-  },
-  {
-    "objectID": "assignments/assignment-1.html#b",
-    "href": "assignments/assignment-1.html#b",
-    "title": "Assignment 1",
-    "section": "(b)",
-    "text": "(b)\n[AI-powered content]\nQuestion 1: If autonomous vehicles were to completely dominate traffic, theoretically, traffic problems would be solved. Considering the technical capabilities available today, why does Demirtas view this transition as such a long-term sociotechnical challenge rather than a purely technical one?\nAnswer: Demirtas emphasizes that while autonomous vehicles can theoretically mitigate traffic oscillations, the primary obstacle is the “human factor” rather than the technology itself. He points out that human habits, such as viewing driving as a leisure activity, deeply ingrained driving behaviors, and complex sociological interactions on the road, hinder the implementation of fully autonomous systems. Furthermore, he argues that the transition will occur gradually in specific regions rather than globally, making the shift to a completely autonomous, integrated traffic order a process that will unfold over a very long period.\n\n\n\n\n\n\nNoteQuestion 2:\n\n\n\nWhich of the six fundamental steps that Kerem Demirtas outlines in the video for solving a data science problem is NOT included in this process?\n\nA:Evaluation\nB:Exploratory Data Analysis (EDA)\nC:Random Model Choosing and Application\nD:Problem Definition\nE:Production and Live Performance\n\nAnswer: C\n\n^Questions provided above was formulated entirely by me. The AI tool (Gemini) was utilized solely as an “editor” to translate my original inquiry into academic English and to enhance the flow of the language.",
     "crumbs": [
       "Assignment 1"
     ]
@@ -109,23 +68,13 @@
     ]
   },
   {
-    "objectID": "assignments/assignment-1.html#c-veri-analizi",
-    "href": "assignments/assignment-1.html#c-veri-analizi",
-    "title": "Assignment 1",
-    "section": "(c) Veri Analizi",
-    "text": "(c) Veri Analizi\n#| message: false #| warning: false",
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "My Assignments",
+    "section": "",
+    "text": "On this page, I showcase the assignment I conducted for the [Spring 2026] EMU430 Data Analytics course.\nPlease use the left menu to navigate through my assignments.\nThe most recent update to this page was made on 09/03/2026.\n[AI-powered content]",
     "crumbs": [
-      "Assignment 1"
-    ]
-  },
-  {
-    "objectID": "assignments/assignment-1.html#c-data-analysis",
-    "href": "assignments/assignment-1.html#c-data-analysis",
-    "title": "Assignment 1",
-    "section": "(c) Data Analysis",
-    "text": "(c) Data Analysis\n#| message: false #| warning: false",
-    "crumbs": [
-      "Assignment 1"
+      "My Assignments"
     ]
   },
   {
@@ -227,5 +176,12 @@
     "crumbs": [
       "My Assignments"
     ]
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "This page is under construction.\n\n\n\n Back to top"
   }
 ]

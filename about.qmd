@@ -2,6 +2,7 @@
 title: "About Me"
 sidebar: false 
 ---
+
 [Please click here to view/download my resume](CerenDolekResume.pdf)
 
 # Education
@@ -10,16 +11,15 @@ sidebar: false
 
 # Work Experience
 
-- Anadolu Sigorta, Data Analysis Long Term Internship, 01.12.2025 - ongoing 
-## Employements
+-   Anadolu Sigorta, Data Analysis Long Term Internship, 01.12.2025 - ongoing
 
-## Internships
+# Internships
 
-- Kucukpazarli, Production Planning Intern, 2023
+-   Kucukpazarli, Production Planning Intern, 2023
 
-- Turkcell, Network Purchase Intern, 2025
+-   Turkcell, Network Purchase Intern, 2025
 
-- Anadolu Sigorta, Business Analysis Intern, 2025
+-   Anadolu Sigorta, Business Analysis Intern, 2025
 
 # Projects
 

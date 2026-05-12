@@ -3,10 +3,14 @@ title: "Our Course Project"
 sidebar: false 
 ---
 
-I'm honored to be a member of the \[group name\] project team.
+I'm honored to be a member of the AC/DC project team.
 
-Below, you'll find a brief summary of our project. To access a detailed project description, please go to [https://\[your-project-url\]](#0){.uri}.
+Below, you'll find a brief summary of our project. To access a detailed project description, please go to <https://emu-hacettepe-analytics.github.io/emu430-fall2024-team-ac-dc/>
 
 **Summary**
 
-\[provide a biref summary of your project\]
+In this project, we basically wanted to see if the current electric vehicle (EV) charging infrastructure in Türkiye is actually enough to meet the demand in different cities.
+
+We pulled our data from three main places: we got the registered EV numbers per city from TÜİK, and the charging station details (like locations, socket counts, and kW capacities) from EPDK. We also used official reports to get a sense of national usage stats, like the average 20 kWh energy consumption per session.
+
+By bringing all this together, we were able to evaluate both the supply and demand sides of the infrastructure. Ultimately, our main goal was to pinpoint exactly which cities are falling short on charging capacity and provide solid, data-driven recommendations for where new stations should be built next.

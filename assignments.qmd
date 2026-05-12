@@ -1,5 +1,6 @@
 ---
 title: "My Assignments"
+format: html
 ---
 
 On this page, I showcase the assignment I conducted for the \[Spring 2026\] EMU430 Data Analytics course.
@@ -8,7 +9,7 @@ Please use the left menu to navigate through my assignments.
 
 The most recent update to this page was made on 09/03/2026.
 
-
+**\[AI-powered content\]**
 
 ## 1. Load Required Package and Dataset
 
@@ -19,7 +20,7 @@ data("polls_us_election_2016")
 data <- polls_us_election_2016
 ```
 
----
+------------------------------------------------------------------------
 
 ## 2. Define Personal Variables
 
@@ -28,7 +29,7 @@ my_first <- "Ceren"
 my_birth_year <- 2001
 ```
 
----
+------------------------------------------------------------------------
 
 ## 3. Define k
 
@@ -39,12 +40,11 @@ k
 
 This formula guarantees that **k is between 8 and 22**.
 
----
+------------------------------------------------------------------------
 
 ## 4. Display Rows from the Original Dataset
 
-If **k is even**, show the first k rows.
-If **k is odd**, show the last k rows.
+If **k is even**, show the first k rows. If **k is odd**, show the last k rows.
 
 ```{r}
 if (k %% 2 == 0) {
@@ -54,7 +54,7 @@ if (k %% 2 == 0) {
 }
 ```
 
----
+------------------------------------------------------------------------
 
 ## 5. Total Number of NA Values in the Dataset
 
@@ -63,7 +63,7 @@ total_na <- sum(is.na(data))
 total_na
 ```
 
----
+------------------------------------------------------------------------
 
 ## 6. Number of NA Values per Column (Top 8)
 
@@ -73,7 +73,7 @@ na_per_column <- sort(colSums(is.na(data)), decreasing = TRUE)
 head(na_per_column, 8)
 ```
 
----
+------------------------------------------------------------------------
 
 ## 7. Replace NA Values and Create New Dataset
 
@@ -106,7 +106,8 @@ new_data[char_cols] <- lapply(new_data[char_cols], function(x) {
   x
 })
 ```
----
+
+------------------------------------------------------------------------
 
 ## 8. Display Rows from the New Dataset
 
@@ -118,7 +119,7 @@ if (k %% 2 == 0) {
 }
 ```
 
----
+------------------------------------------------------------------------
 
 ## 9. Total Remaining NA Values
 
@@ -126,11 +127,12 @@ if (k %% 2 == 0) {
 sum(is.na(new_data))
 ```
 
----
+------------------------------------------------------------------------
 
 ## 10. Check if Any NA Values Remain
 
 ```{r}
 anyNA(new_data)
 ```
-^>*While writing the code, I tried to stay true to the slides. In situations where I didn't know how to access the code, I used AI for assistance. In doing so, I ensured the tool was aware of the slides and didn't deviate from them.*
+
+\^\>*While writing the code, I tried to stay true to the slides. In situations where I didn't know how to access the code, I used AI for assistance. In doing so, I ensured the tool was aware of the slides and didn't deviate from them.*
